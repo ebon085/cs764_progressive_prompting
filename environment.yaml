@@ -1,0 +1,24 @@
+name: nlp
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pytorch=2.2.2        # ✅ MPS (Apple Silicon GPU) supported
+  - torchvision=0.17.2
+  - torchaudio=2.2.2
+  - numpy=1.26.4
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - nltk
+  - pip
+  - pip:
+      - transformers==4.37.2
+      - tokenizers==0.15.2    # ✅ prebuilt wheels for py3.12/macOS
+      - datasets==2.18.0
+      - sentencepiece
+      - torch-optimizer
+      - tqdm
