@@ -5,7 +5,7 @@ import numpy as np
 from tqdm.auto import tqdm
 import logging, os, argparse
 
-import t5_dataset
+import t5_dataset_old
 from itertools import cycle
 from copy import deepcopy
 from transformers import AdamW

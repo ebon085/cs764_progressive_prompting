@@ -4,7 +4,7 @@ import numpy as np
 from tqdm.auto import tqdm
 import logging, os, argparse
 
-from t5_continual import T5ContinualLearner
+from t5_continual_old import T5ContinualLearner
 
 
 def main(args):
